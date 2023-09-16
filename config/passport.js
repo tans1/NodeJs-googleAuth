@@ -5,9 +5,9 @@ require('express-session');
 
 
 passport.use(new GoogleStrategy({
-    clientID: "347205516259-06o1ka8fi5rmo5emm0o0nu221pl3msdg.apps.googleusercontent.com",
-    clientSecret: "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",
-    callbackURL: "http://localhost:3000/auth/callback"
+    clientID: "",
+    clientSecret: "",
+    callbackURL: ""
   },
 
   async function(accessToken, refreshToken, profile, cb) {
