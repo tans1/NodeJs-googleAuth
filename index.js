@@ -20,7 +20,7 @@ app.use(session({
   resave: false,
   saveUninitialized: true,
   store: MongoStore.create({ 
-    mongoUrl:'mongodb+srv://tofikabdu:X8kT8NCcvx0wKJQ0@nodejsauth.heonew2.mongodb.net/ ' ,
+    mongoUrl:'' ,
     collectionName : 'session'
   }),
   cookie: { 
