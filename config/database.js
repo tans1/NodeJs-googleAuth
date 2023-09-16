@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 
 // online mongodb configuration
 try {
-    mongoose.connect('mongodb+srv://tofikabdu:X8kT8NCcvx0wKJQ0@nodejsauth.heonew2.mongodb.net/',
+    mongoose.connect('',
         {
           useNewUrlParser:true,
           useUnifiedTopology:true
